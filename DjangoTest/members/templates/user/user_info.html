@@ -1,0 +1,25 @@
+{% extends "master.html" %}
+
+{% load static %}
+
+{% block title %}
+    My site - User Info
+{% endblock %}
+
+
+{% block content %}
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" style="margin: 15px 10px -15px 10px">
+                <img style="align-items: center; display: block" src="{% static 'images/no_avatar_icon.png' %}">
+            </div>
+            <div class="box" style="margin: 15px 10px -15px 10px; float: right">
+                <img style="align-items: center; display: block" src="{% static 'images/no_avatar_icon.png' %}">
+            </div>
+        </div>
+    </body>
+</html>
+{% endblock %}

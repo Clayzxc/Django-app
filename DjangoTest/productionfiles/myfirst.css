@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    background-color: #3C096C;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-image: url(images/wallpaper.jpg);
+    background-size: 100%;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 125px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.input_field {
+    position: relative;
+}
+
+.input_field input{
+    margin-top: 5px;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    vertical-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+
+.input_field i.user {
+    position: absolute;
+    right: 100px;
+    top: 25%;
+    transform: translateY(-100%);
+    font-size: 20px;
+}
+
+.input_field i.password {
+    position: absolute;
+    right: 100px;
+    top: 75%;
+    transform: translateY(-100%);
+    font-size: 20px;
+}
+
+.input_field i.user_s {
+    position: absolute;
+    right: 100px;
+    top: 12%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input_field i.password_s {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-100%);
+    font-size: 20px;
+}
+
+.input_field input::placeholder {
+    color: white;
+}
+
+.container {
+    margin-top: 0;
+    display: flex;
+    height: 87vh;
+    width: 100%;
+    flex-direction: normal;
+}
+
+.box {
+    display: block;
+    background: transparent;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+input[type="text"] {
+  background: transparent;
+}
+
+.title {
+    padding: 15px 45px;
+}
+
+.text {
+    padding: 5px 35px;
+    font-weight: normal;
+}

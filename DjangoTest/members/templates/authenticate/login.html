@@ -1,0 +1,26 @@
+{% extends "master.html" %}
+
+{% load static %}
+
+{% block title %}
+  My site - Login
+{% endblock %}
+
+
+{% block content %}
+<body>
+  <div class="box" style="margin: 150px 700px">
+    <h1 style="text-align: center"> Log In </h1>
+    <form method=POST> {% csrf_token %}
+      <div style="text-align: center" class="input_field" spellcheck="false">
+        <input type="text" placeholder="Username" name="username" required> <i class='bx bxs-user user'></i>
+        <br><br>
+        <input type="password" placeholder="Password" name="password" required> <i class='bx bxs-lock-alt password' ></i>
+        <br><br>
+      </div>
+      <button class="button" type="submit"> Login </button>
+      <br><br>
+    </form>
+  </div>
+</body>
+{% endblock %}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #6528F7;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #A076F9;
+    color: white;
+    border-radius: 15px
+}
+
+/* Change avatar size */
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+    vertical-align: sub;
+    display: block;
+    margin-right: 10px;
+}

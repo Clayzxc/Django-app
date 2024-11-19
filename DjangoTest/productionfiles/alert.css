@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: rgba(255, 247, 209, .3);
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 247, 209, .3)
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: rgba(255, 0, 0, .3);
+}

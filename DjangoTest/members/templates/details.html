@@ -1,0 +1,14 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+  My site - Details
+{% endblock %}
+
+{% block content %}
+  <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
+
+  <p>Phone {{ mymember.phone }}</p>
+  <p>Member since: {{ mymember.joined_date }}</p>
+
+{% endblock %}

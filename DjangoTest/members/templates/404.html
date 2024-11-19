@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+{% block title %}
+{% endblock %}
+
+<html>
+  <head>
+    <title> My Site - 404 Error </title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'error404.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1> 404 <img src="{% static 'images/error.png' %}"></h1>
+        <h2 style="text-align: center"> Page Not Found </h2>
+      </div>
+    </div>
+    <a href="/"> Go Home </a>
+  </body>
+{% block content %}
+{% endblock %}
+</html>

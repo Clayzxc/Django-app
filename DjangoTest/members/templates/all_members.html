@@ -1,0 +1,27 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+  My site - Members
+{% endblock %}
+
+
+{% block content %}
+<head>
+
+</head>
+<body>
+  <div class="box">
+    <div class="title">
+      <h1>Members</h1>
+      <div class="text">
+        <ul>
+          {% for x in mymembers %}
+          <li><a href="details/{{ x.id }}">{{ x.firstname }} {{ x.lastname }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+{% endblock %}
