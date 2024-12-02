@@ -1,1 +1,2 @@
-"# Django-app" 
+Django-app
+Django App Project
